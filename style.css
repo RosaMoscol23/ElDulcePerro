@@ -220,6 +220,8 @@ footer {
   width: 280px;
   height: 280px;
 }
+
+
 .box h3 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -236,6 +238,7 @@ footer {
   font-weight: normal;
   text-align: left;
 }
+
 .ganadores {
   display: grid;
   border: 1.5px solid black;
@@ -369,8 +372,8 @@ textarea[name="areatxt"]:focus {
       display: none;
     }
   }
-}
 
+}
 /*Para tablet*/
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
