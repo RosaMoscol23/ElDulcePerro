@@ -1,0 +1,20 @@
+.indice {
+    list-style: none;
+    font-style: italic;
+    text-align: left;
+    height: 10px;
+
+    .indice :hover {
+        background-color: $turquesa;
+        font-weight: bold;
+      }
+
+      li {
+        display: inline;
+        margin: 10px;
+        padding: 10px;
+      }
+  }
+  
+  
+  

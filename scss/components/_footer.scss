@@ -1,0 +1,30 @@
+footer {
+    font-style: italic;
+    background-color: $turquesa;
+
+    .redesSociales {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+    
+        .faceInsta {
+            display: flex;
+            letter-spacing: 5px;
+            word-spacing: 0.3px;
+          }
+      }
+
+      .wpp {
+        display: flex;
+        letter-spacing: 0.3px;
+        position: fixed;
+        bottom: 25px;
+        right: 10px;
+      }
+  }
+  
+  
+ 
+  
+  

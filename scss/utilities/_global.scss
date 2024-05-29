@@ -1,0 +1,32 @@
+body {
+  background-color: azure;
+  font-family: $letra1;
+  font-size: 1rem;
+  color: midnightblue;
+
+  h1 {
+    font-family: $letra1;
+    color: $negro;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  h2 {
+    font-family: $letra1;
+    color: $azuloscuro;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0px;
+    margin: 5px;
+  }
+  h3 {
+    margin: 5px;
+  }
+  
+  p {
+    margin: 5px;
+    text-align: justify;
+  }
+}
+
+
+
