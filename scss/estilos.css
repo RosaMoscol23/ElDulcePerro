@@ -1,0 +1,300 @@
+@charset "UTF-8";
+.indice {
+  list-style: none;
+  font-style: italic;
+  text-align: left;
+  height: 10px;
+}
+.indice .indice :hover {
+  background-color: paleturquoise;
+  font-weight: bold;
+}
+.indice li {
+  display: inline;
+  margin: 10px;
+  padding: 10px;
+}
+
+footer {
+  font-style: italic;
+  background-color: paleturquoise;
+}
+footer .redesSociales {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+footer .redesSociales .faceInsta {
+  display: flex;
+  letter-spacing: 5px;
+  word-spacing: 0.3px;
+}
+footer .wpp {
+  display: flex;
+  letter-spacing: 0.3px;
+  position: fixed;
+  bottom: 25px;
+  right: 10px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  background: radial-gradient(0deg, rgb(2, 0, 36) 0%, rgb(175, 238, 238) 12%, rgb(0, 212, 255) 100%);
+  height: 100px;
+}
+.logo .elLogo {
+  display: flex;
+  display: 5px;
+  height: 100px;
+  align-items: center;
+}
+
+.imagenesform1 {
+  width: 380px;
+  height: 480px;
+  margin: 10px;
+  display: inline-block;
+  margin: 10px;
+}
+.imagenesform1 .imagen4 {
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/GomitasPerro.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imagenesform1 .imagen5 {
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/Perro2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imagenesform1 .imagen6 {
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/Snack2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagenesform2 {
+  width: 380px;
+  height: 380px;
+  display: inline-block;
+  margin: 10px;
+}
+.imagenesform2 .imagen1 {
+  width: 100%; /* Ajusta el ancho de la imagen al tamaño del div */
+  height: 100%; /* Ajusta la altura de la imagen al tamaño del div */
+  background-image: url(images/GomitasPerro7.jpg); /* Reemplaza "tu_ruta_de_la_imagen.jpg" por la ruta de tu imagen */
+  background-position: center; /* Alinea la imagen al centro del div */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-size: cover; /* Ajusta la imagen para que cubra todo el div */
+}
+.imagenesform2 .imagen2 {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/Horus\ 5.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imagenesform2 .imagen3 {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/Snack3.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.formulario {
+  margin: 5px;
+}
+.formulario .areatxt2 {
+  margin: 5px;
+}
+.formulario .areatxt2 textarea[name=areatxt]:focus {
+  outline: 1px solid navy;
+}
+
+.veterinaria {
+  width: 580px;
+  height: 280px;
+}
+
+.kitRegalo {
+  width: 280px;
+  height: 280px;
+}
+
+.snack {
+  width: 280px;
+  height: 280px;
+}
+
+.ganadores {
+  display: grid;
+  border: 1.5px solid black;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "box1 box2 box3" "box4 box7 box8" "box4 box9 box10" "box5 box11 box12" "box6 box13 box14";
+  width: 80vw;
+  height: 80vh;
+  margin: left;
+}
+.ganadores .box {
+  border: 1px solid black;
+  background-color: lightblue;
+  padding-left: 10px;
+}
+.ganadores .box h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: navy;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  text-align: center;
+}
+.ganadores .box h4 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: navy;
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: left;
+}
+.ganadores .box1 {
+  grid-area: box1;
+}
+.ganadores .box2 {
+  grid-area: box2;
+}
+.ganadores .box3 {
+  grid-area: box3;
+}
+.ganadores .box4 {
+  grid-area: box4;
+}
+.ganadores .box5 {
+  grid-area: box5;
+}
+.ganadores .box6 {
+  grid-area: box6;
+}
+.ganadores .box7 {
+  grid-area: box7;
+}
+.ganadores .box8 {
+  grid-area: box8;
+}
+.ganadores .box9 {
+  grid-area: box9;
+}
+.ganadores .box10 {
+  grid-area: box10;
+}
+.ganadores .box11 {
+  grid-area: box11;
+}
+.ganadores .box12 {
+  grid-area: box12;
+}
+.ganadores .box13 {
+  grid-area: box13;
+}
+.ganadores .box14 {
+  grid-area: box14;
+}
+
+::-moz-placeholder {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+::placeholder {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.row img {
+  height: 480px;
+  margin: 10px;
+}
+
+.imagenesform3 {
+  width: 280px;
+  height: 180px;
+  display: inline-block;
+  margin: 10px;
+}
+.imagenesform3 .imagen8 {
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/logo-wong.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imagenesform3 .imagen9 {
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/Metro_2013.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imagenesform3 .imagen10 {
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/Vivanda.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imagenesform3 .imagen11 {
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/PedidosYa-y-Rappi.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: azure;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 1rem;
+  color: midnightblue;
+}
+body h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: black;
+  font-size: 3rem;
+  font-weight: bold;
+}
+body h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: navy;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0px;
+  margin: 5px;
+}
+body h3 {
+  margin: 5px;
+}
+body p {
+  margin: 5px;
+  text-align: justify;
+}/*# sourceMappingURL=estilos.css.map */

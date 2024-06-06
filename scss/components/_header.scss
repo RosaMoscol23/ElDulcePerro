@@ -1,3 +1,5 @@
+@import '../utilities/variables';
+
 .indice {
     list-style: none;
     font-style: italic;
@@ -5,7 +7,7 @@
     height: 10px;
 
     .indice :hover {
-        background-color: $turquesa;
+        background-color: turquoise;
         font-weight: bold;
       }
 
@@ -15,6 +17,6 @@
         padding: 10px;
       }
   }
-  
+
   
   

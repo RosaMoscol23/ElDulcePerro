@@ -1,6 +1,9 @@
+@import '../utilities/variables';
+
 footer {
     font-style: italic;
-    background-color: $turquesa;
+    background-color: turquoise;
+    height: 100px;
 
     .redesSociales {
         display: flex;
